@@ -1,5 +1,9 @@
 {
   "expo": {
-    "sdkVersion": "25.0.0"
+    "sdkVersion": "25.0.0",
+    "name": "Sammich",
+    "description":
+      "A life changing mobile app that allows you to detect whether or not you're about to eat a sandwich!",
+    "icon": "./assets/sandwich.png"
   }
 }
