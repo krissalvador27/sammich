@@ -29,6 +29,7 @@ export default class CameraScreen extends React.Component {
     if (this.camera && !this.state.takingPicture) {
       this.setState({ takingPicture: true });
 
+      // Detector will need the photo in base64
       const photo = await this.camera.takePictureAsync({ base64: true });
 
       this.props.navigation.navigate("Detector", {
